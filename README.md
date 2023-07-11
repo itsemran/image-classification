@@ -18,7 +18,7 @@ You can install these libraries using the following command:
 The dataset used in this code consists of images of happy and sad faces. The images are organized in separate directories for each class. 
 ### The code uses the image_dataset_from_directory function from TensorFlow to load the dataset. It also performs some preprocessing steps, such as resizing the images and scaling the pixel values between 0 and 1.
 
-# #Preprocessing
+# Preprocessing
 
 Before training the model, some preprocessing steps are applied to the images. The dodgy or irrelevant images are removed using OpenCV and the imghdr library. The remaining images are then scaled by dividing the pixel values by 255 to bring them in the range of 0 to 1.
 # Model Architecture
